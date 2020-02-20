@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <AssemblyName>Dapper.Tests.Contrib</AssemblyName>
     <Title>Dapper.Tests.Contrib</Title>
@@ -7,9 +7,6 @@
     <OutputType>Exe</OutputType>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <TargetFrameworks>netcoreapp1.0;netcoreapp2.0</TargetFrameworks>
-    <FileUpgradeFlags>40</FileUpgradeFlags>
-    <UpgradeBackupLocation>C:\Users\james\OneDrive\Documents\patch\Dapper\Backup\Dapper.Tests.Contrib\</UpgradeBackupLocation>
-    <OldToolsVersion>2.0</OldToolsVersion>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\Dapper.Tests\Helpers\XunitSkippable.cs;..\Dapper\TypeExtensions.cs" />

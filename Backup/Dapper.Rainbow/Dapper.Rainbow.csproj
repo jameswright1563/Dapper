@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <AssemblyName>Dapper.Rainbow</AssemblyName>
     <PackageTags>orm;sql;micro-orm</PackageTags>
@@ -9,9 +9,6 @@
     <TargetFrameworks>net451;netstandard1.3</TargetFrameworks>
     <!-- TODO: Docs -->
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
-    <FileUpgradeFlags>40</FileUpgradeFlags>
-    <UpgradeBackupLocation>C:\Users\james\OneDrive\Documents\patch\Dapper\Backup\Dapper.Rainbow\</UpgradeBackupLocation>
-    <OldToolsVersion>2.0</OldToolsVersion>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\Dapper\TypeExtensions.cs" />

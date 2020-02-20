@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <AssemblyName>Dapper.EntityFramework</AssemblyName>
     <Description>Extension handlers for entity framework</Description>
@@ -7,9 +7,6 @@
     <Authors>Marc Gravell;Nick Craver</Authors>
     <TargetFrameworks>net451</TargetFrameworks>
     <PackageTags>orm;sql;micro-orm</PackageTags>
-    <FileUpgradeFlags>40</FileUpgradeFlags>
-    <UpgradeBackupLocation>C:\Users\james\OneDrive\Documents\patch\Dapper\Backup\Dapper.EntityFramework\</UpgradeBackupLocation>
-    <OldToolsVersion>2.0</OldToolsVersion>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dapper\Dapper.csproj" />

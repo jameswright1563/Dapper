@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <AssemblyName>Dapper.SqlBuilder</AssemblyName>
     <PackageTags>orm;sql;micro-orm;query;sql-builder</PackageTags>
@@ -9,9 +9,6 @@
     <!-- TODO: Docs -->
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
-    <FileUpgradeFlags>40</FileUpgradeFlags>
-    <UpgradeBackupLocation>C:\Users\james\OneDrive\Documents\patch\Dapper\Backup1\</UpgradeBackupLocation>
-    <OldToolsVersion>Current</OldToolsVersion>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dapper\Dapper.csproj" />

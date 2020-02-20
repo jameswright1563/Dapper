@@ -1,26 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk" ToolsVersion="Current">
   <PropertyGroup>
-    <AssemblyName>Dapper.Rainbow</AssemblyName>
-    <PackageTags>orm;sql;micro-orm</PackageTags>
-    <Title>Dapper.Rainbow</Title>
-    <Description>Trivial micro-orm implemented on Dapper, provides with CRUD helpers.</Description>
-    <Authors>Sam Saffron</Authors>
-    <Copyright>2017 Sam Saffron</Copyright>
+    <AssemblyName>Dapper.SqlBuilder</AssemblyName>
+    <PackageTags>orm;sql;micro-orm;query;sql-builder</PackageTags>
+    <Title>Dapper SqlBuilder component</Title>
+    <Description>The Dapper SqlBuilder component, for building SQL queries dynamically.</Description>
+    <Authors>Sam Saffron, Johan Danforth</Authors>
     <TargetFrameworks>net451;netstandard1.3</TargetFrameworks>
     <!-- TODO: Docs -->
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <FileUpgradeFlags>40</FileUpgradeFlags>
-    <UpgradeBackupLocation>C:\Users\james\OneDrive\Documents\patch\Dapper\Backup\Dapper.Rainbow\</UpgradeBackupLocation>
+    <UpgradeBackupLocation>C:\Users\james\OneDrive\Documents\patch\Dapper\Backup\Dapper.SqlBuilder\</UpgradeBackupLocation>
     <OldToolsVersion>2.0</OldToolsVersion>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="..\Dapper\TypeExtensions.cs" />
-  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dapper\Dapper.csproj" />
   </ItemGroup>
   <ItemGroup Condition="'$(TargetFramework)' == 'net451'">
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Linq" />
     <Reference Include="System" />

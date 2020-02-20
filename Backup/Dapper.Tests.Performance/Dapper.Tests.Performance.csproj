@@ -1,4 +1,4 @@
-﻿<Project ToolsVersion="Current">
+﻿<Project>
   <Import Sdk="Microsoft.NET.Sdk" Project="Sdk.props" />
   <PropertyGroup>
     <AssemblyName>Dapper.Tests.Performance</AssemblyName>
@@ -7,9 +7,6 @@
     <OutputType>Exe</OutputType>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
     <TargetFrameworks>net462</TargetFrameworks>
-    <FileUpgradeFlags>40</FileUpgradeFlags>
-    <UpgradeBackupLocation>C:\Users\james\OneDrive\Documents\patch\Dapper\Backup\Dapper.Tests.Performance\</UpgradeBackupLocation>
-    <OldToolsVersion>2.0</OldToolsVersion>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Dapper\Dapper.csproj" />
@@ -47,7 +44,7 @@
   <ItemGroup>
     <None Update="NHibernate\*.xml" CopyToOutputDirectory="Always" />
     <Compile Update="Benchmarks.*.cs" DependentUpon="Benchmarks.cs" />
-  </ItemGroup>
+  </ItemGroup>  
   <ItemGroup>
     <PackageReference Update="SourceLink.Create.GitHub" Version="2.8.3" />
   </ItemGroup>
